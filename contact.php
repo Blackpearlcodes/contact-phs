@@ -25,7 +25,5 @@ if($rs)
 else
 {
 	echo "Invalid Credentials!";
-	
 }
-
 ?>

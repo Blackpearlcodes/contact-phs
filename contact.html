@@ -9,39 +9,38 @@
 <body>
     <div class="container">
         <div class="py-5 text-center">
+            <h2>Contact us</h2>
+            <!-- Connect HTML to database with MySQL using PHP -->
+        </div>
+
+        <fieldset>
+            <form name="frmContact" method="post" action="contact.php">
                 
-                <h2>Contact us</h2>
-                <!-- Connect HTML to database with MySQL using PHP -->
-              </div>
-              <fieldset>
-  
-                <form name="frmContact" method="post" action="contact.php">
-                  <p>
-                    <label for="Name">Your Name </label>
+                <p>
+                    <label for="Name">Enter name </label>
                     <input type="text" name="txtName" id="txtName" placeholder="Name" value="" required>
-                    <div class="invalid-feedback">
-                                Valid first name is required.
-                    </div>
-                  </p>
-                  <p>
+                    <div>Name is required.</div>
+                </p>
+                <p>
                     <label for="email">Your Email</label>
-                    <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
-                  </p>
-                  <p>
+                    <input type="text" name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
+                </p>
+                <p>
                     <label for="phone">Your Phone</label>
-                    <input type="text"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
-                  </p>
-                  <p>
+                    <input type="text" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
+                </p>
+                <p>
                     <label for="message">Message</label>
-                    <textarea name="txtMessage" class="form-control"  id="txtMessage"  placeholder="Message" required></textarea>
-                  </p>
-                  <p>&nbsp;</p>
-                  <p>
+                    <textarea name="txtMessage" id="txtMessage"  placeholder="Message" required></textarea>
+                </p>
+                <p>&nbsp;</p>
+                <p>
                     <input type="submit" name="Submit" id="Submit" value="Click me to Contact"  class="btn btn-primary btn-lg btn-block">
                 </p>
-              </form>
-            </fieldset>
-            </div>
+
+            </form>
+        </fieldset>
+    </div>
     
 </body>
 </html>

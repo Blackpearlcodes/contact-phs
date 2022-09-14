@@ -19,11 +19,11 @@ $sql = "INSERT INTO `tbl_contact` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fld
 $rs = mysqli_query($con, $sql);
 if($rs)
 {
-	echo "Contact Records Inserted";
+	echo "Thank you. We will get back to you as soon as possible.";
 }
 }
 else
 {
-	echo "Invalid Credentials!";
+	echo "Invalid Credentials, try again.";
 }
 ?>
